@@ -1,0 +1,13 @@
+name :  "preetirawat"
+
+on:
+  push:
+    branches:
+    -  main 
+    jobs:
+      terraformInit:
+        name:Terraforom Init
+        runs-on:preetirunner
+        steps:
+         -  name:  preetirunner
+            run-echo preetirunner
