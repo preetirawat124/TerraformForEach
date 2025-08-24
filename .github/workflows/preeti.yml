@@ -11,3 +11,18 @@ jobs:
         steps:
          -  name:  preeti labels
             run: echo "preeti labels"
+jobs:
+      terraformPlan:
+        name: Terraforom plan
+        runs-on:  preeti labels
+        steps:
+         -  name:  preeti labels
+            run: echo "preeti labels"  
+
+jobs:
+      terraformApply:
+        name: Terraforom Apply
+        runs-on:  preeti labels
+        steps:
+         -  name:  preeti labels
+            run: echo "preeti labels"            
