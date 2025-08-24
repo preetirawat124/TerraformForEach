@@ -7,7 +7,7 @@ on:
     jobs:
       terraformInit:
         name:Terraforom Init
-        runs-on:preetirunner
+        runs-on:preeti labels
         steps:
-         -  name:  preetirunner
-            run-echo preetirunner
+         -  name:  preeti labels
+            run-echo preeti labels
