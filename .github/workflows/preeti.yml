@@ -4,10 +4,10 @@ on:
   push:
     branches:
     -  main 
-    jobs:
+jobs:
       terraformInit:
-        name:Terraforom Init
-        runs-on:preeti labels
+        name: Terraforom Init
+        runs-on:  preeti labels
         steps:
          -  name:  preeti labels
-            run-echo preeti labels
+            run: echo "preeti labels"
